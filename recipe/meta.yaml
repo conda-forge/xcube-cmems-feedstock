@@ -1,5 +1,5 @@
 {% set name = "xcube-cmems" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dcs4cop/xcube-cmems/archive/v{{ version }}.tar.gz
-  sha256: ef41a436d6e5f8ddb791908a307e525627b73b7981f9c4d7e0f236d04b8569a8
+  sha256: a2cf688de61e3f1a647645f6c815baa98d31073c6905cf33b5ca3b9aeab6e661
 
 build:
   number: 0
@@ -39,8 +39,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  description: xcube-cmems is an xcube plugin which can generate data cubes from the Copernicus Marine Service (CMEMS) 
-               API.
+  description: xcube-cmems is an xcube plugin which can generate data cubes from the Copernicus Marine Service (CMEMS) API.
   doc_url: https://github.com/dcs4cop/xcube-cmems/blob/master/README.md
   dev_url: https://github.com/dcs4cop/xcube-cmems
 
