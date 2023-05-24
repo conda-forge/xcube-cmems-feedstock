@@ -1,5 +1,5 @@
 {% set name = "xcube-cmems" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dcs4cop/xcube-cmems/archive/v{{ version }}.tar.gz
-  sha256: a2cf688de61e3f1a647645f6c815baa98d31073c6905cf33b5ca3b9aeab6e661
+  sha256: 78e63aa2cdeaa4c88310be387ef163ba9ce0ed9b290419377c464d8925ef50f1
 
 build:
   number: 0
@@ -22,10 +22,14 @@ requirements:
     # Python
     - python >=3.8
     # Required
+    - aiohttp >=3.8
+    - gdal >=3.0,<3.6.3
     - lxml >=4.9.1
+    - nest-asyncio >=1.5
     - owslib
     - pydap >=3.3.0
     - pyproj
+    - tenacity
     - xcube >=0.12.1
     - zarr
 test:
@@ -48,3 +52,4 @@ extra:
     - TonioF
     - AliceBalfanz
     - pont-us
+    - forman
