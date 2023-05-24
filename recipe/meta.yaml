@@ -32,7 +32,6 @@ requirements:
     - tenacity
     - gdal >=3.0,<3.6.3
     - aiohttp >=3.8
-    - asyncio
 test:
   imports:
     - xcube_cmems
