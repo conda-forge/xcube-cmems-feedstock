@@ -28,6 +28,11 @@ requirements:
     - pyproj
     - xcube >=0.12.1
     - zarr
+    - nest-asyncio >=1.5
+    - tenacity
+    - gdal >=3.0,<3.6.3
+    - aiohttp >=3.8
+    - asyncio
 test:
   imports:
     - xcube_cmems
@@ -48,3 +53,4 @@ extra:
     - TonioF
     - AliceBalfanz
     - pont-us
+    - forman
