@@ -3,15 +3,15 @@ About xcube-cmems-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xcube-cmems-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/dcs4cop/xcube-cmems
+Home: https://github.com/xcube-dev/xcube-cmems
 
 Package license: MIT
 
 Summary: xcube plugin for the Copernicus Marine Service (CMEMS) API
 
-Development: https://github.com/dcs4cop/xcube-cmems
+Development: https://github.com/xcube-dev/xcube-cmems
 
-Documentation: https://github.com/dcs4cop/xcube-cmems/blob/master/README.md
+Documentation: https://github.com/xcube-dev/xcube-cmems/blob/master/README.md
 
 xcube-cmems is an xcube plugin which can generate data cubes from the Copernicus Marine Service (CMEMS) API.
 
