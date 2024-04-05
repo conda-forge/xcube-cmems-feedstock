@@ -22,7 +22,7 @@ requirements:
     # Python
     - python >=3.10
     # Required
-    - copernicusmarine
+    - copernicusmarine >=1.0.10
     - numpy
     - pandas
     - xarray
