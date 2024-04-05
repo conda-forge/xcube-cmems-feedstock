@@ -154,5 +154,5 @@ Feedstock Maintainers
 * [@TonioF](https://github.com/TonioF/)
 * [@forman](https://github.com/forman/)
 * [@pont-us](https://github.com/pont-us/)
-* [@thomasstorm](https://github.com/thomasstorm)
+* [@thomasstorm](https://github.com/thomasstorm/)
 
