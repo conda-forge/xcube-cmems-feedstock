@@ -27,7 +27,6 @@ requirements:
     - pandas
     - xarray
     - xcube >=0.12.1
-    - zarr
 test:
   imports:
     - xcube_cmems
