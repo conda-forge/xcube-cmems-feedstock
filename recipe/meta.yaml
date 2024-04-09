@@ -1,5 +1,5 @@
 {% set name = "xcube-cmems" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/xcube-dev/xcube-cmems/archive/v{{ version }}.tar.gz
-  sha256: fc28a4ba85b0be5a9207168292848b20ffb0cbc09e673ca2dddb2210aedffa44
+  sha256: 1b07a4e0930e3e67543f81ccce88fa9c7eb4a94f0cbd461cb72dc9ac927672bd
 
 build:
   number: 0
