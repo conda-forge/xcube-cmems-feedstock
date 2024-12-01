@@ -1,3 +1,4 @@
+{% set python_min = '3.10' %}
 {% set name = "xcube-cmems" %}
 {% set version = "0.1.5" %}
 
@@ -10,17 +11,17 @@ source:
   sha256: 1b07a4e0930e3e67543f81ccce88fa9c7eb4a94f0cbd461cb72dc9ac927672bd
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.10
+    - python {{ python_min }}
     - pip
   run:
     # Python
-    - python >=3.10
+    - python >={{ python_min }}
     # Required
     - copernicusmarine >=1.0.10
     - numpy
@@ -28,6 +29,8 @@ requirements:
     - xarray
     - xcube >=0.12.1
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - xcube_cmems
 
