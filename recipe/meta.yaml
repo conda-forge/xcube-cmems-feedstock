@@ -1,6 +1,6 @@
-{% set python_min = '3.10' %}
+{% set python_min = "3.10" %}
 {% set name = "xcube-cmems" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://github.com/xcube-dev/xcube-cmems/archive/v{{ version }}.tar.gz
-  sha256: 1b07a4e0930e3e67543f81ccce88fa9c7eb4a94f0cbd461cb72dc9ac927672bd
+  sha256: 584171ef3293ffe3df4d8fdbd4dfacad5df14987e308b700815e7a077a7a7912
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
