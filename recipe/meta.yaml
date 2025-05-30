@@ -23,11 +23,11 @@ requirements:
     # Python
     - python >={{ python_min }}
     # Required
-    - copernicusmarine >=1.0.10
-    - numpy
+    - copernicusmarine >=2.1.1
+    - numpy <2.0.0
     - pandas
-    - xarray
-    - xcube >=0.12.1
+    - xarray >=2024.7.0
+    - xcube >=1.9.1
 test:
   requires:
     - python {{ python_min }}
