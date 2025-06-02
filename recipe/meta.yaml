@@ -47,9 +47,10 @@ about:
 
 extra:
   recipe-maintainers:
-    - TejasMorbagal
-    - TonioF
     - AliceBalfanz
-    - pont-us
+    - b-yogesh
     - forman
+    - pont-us
+    - TejasMorbagal
     - thomasstorm
+    - TonioF
