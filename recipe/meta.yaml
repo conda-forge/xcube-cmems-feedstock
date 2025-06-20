@@ -25,9 +25,8 @@ requirements:
     - python >={{ python_min }}
     # Required
     - copernicusmarine >=2.1.1
-    - numpy <2.0.0
+    - numpy >=2.0.0
     - pandas
-    - xarray >=2024.7.0
     - xcube >=1.9.1
 test:
   requires:
