@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "xcube-cmems" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/xcube-dev/xcube-cmems/archive/v{{ version }}.tar.gz
-  sha256: 643b997bb0298a29427e1cc94a849b982ba9b734517e2a8ac21358eafc61820c
+  sha256: 1ef4035b250a2661633a057af4f5db94bdcf265555db477f4ab927e4263e606c
 
 build:
   number: 0
@@ -25,9 +25,9 @@ requirements:
     - python >={{ python_min }}
     # Required
     - copernicusmarine >=2.1.1
-    - numpy >=2.0.0
+    - numpy
     - pandas
-    - xcube >=1.9.1
+    - xcube >=1.11.1
 test:
   requires:
     - python {{ python_min }}
@@ -53,3 +53,5 @@ extra:
     - TejasMorbagal
     - thomasstorm
     - TonioF
+    - clarasb
+    - konstntokas
